@@ -1,0 +1,20 @@
+:root {
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+  position: absolute;
+  float: left;
+  margin: 15% 15%  0 15%;
+  border: 1px black solid;
+
+}
+
+footer{
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  padding: 2%;
+}
