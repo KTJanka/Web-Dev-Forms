@@ -8,26 +8,31 @@
   <title>Document</title>
 </head>
 <body>
-  <section>
+  <header>
+    <h1><img src="pizza.png" alt="pizza image">Paradise</h1>
+  </header>
     <form action="http://cissweb.lorainccc.edu/useruploads/MZellers/ciss216lab.php">
+      <h2>Order Form:</h2>
       <ul>
         <li>
           <label for="name">Name:</label>
-          <input type="text">
+          <input name="frmName" type="text" id="name">
         </li>
         <li>
           <label for="phone">Phone:</label>
-          <input type="text">
+          <input name="frmPhone" type="text" id="phone">
         </li>
         <li>
           <label for="size">Size:</label>
-          <select name="size" id="frmSize">
+          <select name="frmSize" id="size">
             <option value="S">Small</option>
             <option value="M">Medium</option>
             <option value="L">Large</option>
           </select>
+        </li>
+        <li>
           <label for="crust">Type of Crust:</label>
-          <select name="crust" id="frmCrust">
+          <select name="frmCrust" id="crust">
             <option value="1">Thin</option>
             <option value="2">Thick</option>
             <option value="3">Stuffed</option>
@@ -50,7 +55,7 @@
           <label for="deliver">Delivery</label>
         </li>
         <li>
-          <label for="extra">Additional Instructions</label>
+          <label for="extra">Extra Instructions</label>
           <input type="text" name="frmInstructions" id="extra">
         </li>
         <li>
@@ -58,7 +63,7 @@
         </li>
       </ul>
     </form>
-  </section>
+  
 
   <footer>
     &copy; Kyle Janka 2019
